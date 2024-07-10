@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SDN1Lembak</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="imagesd/sdn 1 lembak.png" /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">BERANDA</a></li>
+            <li><a href="about.html">TENTANG</a></li>
+            <li><a href="course.html">INFO</a></li>
+            <li><a href="blog.html">AKREDITASI</a></li>
+            <li><a href="contact.html">KONTAK</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Informasi</h1>
+    </section>
+    <br /><br />
+
+    <!----Pembagian Raport----->
+    <h2>Pembagian Raport tahun ajaran 2023/2024</h2>
+    <p>
+      SDN 1 Lembak mengumumkan jadwal pembagian raport untuk semester tahun
+      ajaran 2023/2024. Acara ini berlangsung pada tanggal 21 Juni 2024, dimulai
+      pukul 07.30 WIB pada lapangan sekolah. Pembagian raport dilakukan secara
+      bertahap sesuai tingkatan dan kelas masing-masing. Orang tua atau wali
+      murid juga hadir untuk menerima raport dan berdiskusi dengan guru tentang
+      perkembangan akademik anak mereka. Pastikan untuk memeriksa papan
+      pengumuman sekolah untuk informasi lebih lanjut atau kunjungi situs web
+      sekolah untuk pembaruan terbaru.<br /><br />
+      Berikut beberapa dokumentasi pembagian raport tahun ajaran 2023/2024
+    </p>
+    <br />
+
+    <!-- Slide Foto -->
+    <section class="gallery">
+      <div class="slide">
+        <img src="imagesd/bagirapot.jpg" />
+      </div>
+      <div class="slide">
+        <img src="imagesd/br1.jpg" />
+      </div>
+      <div class="slide">
+        <img src="imagesd/br2.jpg" />
+      </div>
+      <div class="slide">
+        <img src="imagesd/br3.jpg" />
+      </div>
+      <div class="slide">
+        <img src="imagesd/br4.jpg" />
+      </div>
+      <div class="slide">
+        <img src="imagesd/br5.jpg" />
+      </div>
+      <div class="slide">
+        <img src="imagesd/br6.jpg" />
+      </div>
+
+      <!-- Tombol navigasi slide -->
+      <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+      <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </section>
+
+    <!-- Script JavaScript untuk slideshow -->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+    <br /><br /><br /><br />
+
+    <!---footer-->
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h4>Tentang Kami</h4>
+          <p>
+            SD Negeri 1 Lembak adalah sebuah lembaga sekolah SD negeri yang
+            beralamat di Jl. Depati Putih, Kab. Muara Enim. Kami berkomitmen
+            untuk menciptakan lingkungan belajar yang nyaman dan inovatif.
+          </p>
+          <div class="contact">
+            <span><i class="fas fa-envelope"></i> &nbsp;info@sdn1lembak.sch.id</span>
+          </div>
+          <div class="socials">
+            <a href="mailto:your-sdn1lembak@gmail.com"><img src="imagesd/emaill.png" style="width: 30px; height: 30px" /></a>
+            <a href="https://www.facebook.com/esdesatu.lembak?mibextid=ZbWKwL"><img src="imagesd/facebook.png" style="width: 30px; height: 30px" /></a>
+            <a href="https://www.instagram.com/sdnsatu_lembak_berkarakter?igsh=MWV3ZmtmejVoNXo3bQ=="><img src="imagesd/instagram.png" style="width: 30px; height: 30px" /></a>
+            <a href="http://www.youtube.com/@sdn1lembak314"><img src="imagesd/youtube.png" style="width: 30px; height: 30px" /></a>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang</a></li>
+            <li><a href="course.html">Info</a></li>
+            <li><a href="blog.html">Akreditasi</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact-form">
+          <h4>Ingin tahu informasi lebih banyak?</h4>
+          <p>Kunjungi halaman <a href="course.html">Info</a> kami untuk informasi lebih lanjut.</p>
+        </div>
+        
+      </div>
+
+      <div class="footer-bottom">
+        &copy; sdn1lembak.sch.id | Designed by Wooby
+      </div>
+    </section>
+  </body>
+</html>

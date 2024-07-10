@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="imagesd/sdn 1 lembak.png" /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">BERANDA</a></li>
+            <li><a href="about.html">TENTANG</a></li>
+            <li><a href="course.html">INFO</a></li>
+            <li><a href="blog.html">AKREDITASI</a></li>
+            <li><a href="contact.html">KONTAK</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Kontak</h1>
+    </section>
+    
+    <!---------Contact us-->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.0377696407663!2d104.34200969999999!3d-3.3408354000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3bca5af1c5a415%3A0x142dc8e41a3903a6!2sSDN%201%20Lembak!5e0!3m2!1sid!2sid!4v1719223869824!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- Informasi Kontak Sekolah -->
+    <section class="contact-info">
+      <div class="row">
+        <div class="info-col">
+          <div>
+            <i class="fa fa-home" style="font-size: 2em;"></i>
+            <span>
+              <h5>SDN 1 Lembak, Kabupaten Muara Enim</h5>
+              <p>Jl. Depati Putih, Kab. Muara Enim.</p>
+            </span>
+          </div> <br /><br /><br />
+          <div>
+            <i class="fa fa-envelope-o" style="font-size: 2em;"></i>
+            <span>
+              <h5>sdn1lembak@gmail.com</h5>
+              <p>Email kami untuk pertanyaan anda</p>
+            </span>
+          </div> <br /><br /><br />
+          <div>
+            <i class="fa fa-phone" style="font-size: 2em;"></i>
+            <span>
+              <h5>(0712) 1234567</h5>
+              <p>Hubungi kami untuk pertanyaan anda</p>
+            </span>
+          </div>
+        </div>
+        <div class="photo-col">
+          <img src="imagesd/bersama.jpg" alt="Foto Sekolah" />
+          <div class="overlay">Ayo Hubungi dan <br> Menjadi Bagian Dari Kami</div>
+        </div>
+      </div>
+    </section>
+    
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!---footer-->
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h4>Tentang Kami</h4>
+          <p>
+            SD Negeri 1 Lembak adalah sebuah lembaga sekolah SD negeri yang
+            beralamat di Jl. Depati Putih, Kab. Muara Enim. Kami berkomitmen
+            untuk menciptakan lingkungan belajar yang nyaman dan inovatif.
+          </p>
+          <div class="contact">
+            <span><i class="fas fa-envelope"></i> &nbsp;info@sdn1lembak.sch.id</span>
+          </div>
+          <div class="socials">
+            <a href="mailto:your-sdn1lembak@gmail.com"><img src="imagesd/emaill.png" style="width: 30px; height: 30px" /></a>
+            <a href="https://www.facebook.com/esdesatu.lembak?mibextid=ZbWKwL"><img src="imagesd/facebook.png" style="width: 30px; height: 30px" /></a>
+            <a href="https://www.instagram.com/sdnsatu_lembak_berkarakter?igsh=MWV3ZmtmejVoNXo3bQ=="><img src="imagesd/instagram.png" style="width: 30px; height: 30px" /></a>
+            <a href="http://www.youtube.com/@sdn1lembak314"><img src="imagesd/youtube.png" style="width: 30px; height: 30px" /></a>
+          </div>
+        </div>
+
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang</a></li>
+            <li><a href="course.html">Info</a></li>
+            <li><a href="blog.html">Akreditasi</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact-form">
+          <h4>Ingin tahu informasi lebih banyak?</h4>
+          <p>Kunjungi halaman <a href="course.html">Info</a> kami untuk informasi lebih lanjut.</p>
+        </div>
+        
+      </div>
+
+      <div class="footer-bottom">
+        &copy; sdn1lembak.sch.id | Designed by Wooby
+      </div>
+    </section>
+
+    <!-----Script------>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu() {
+        navlinks.style.right = "0";
+      }
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
